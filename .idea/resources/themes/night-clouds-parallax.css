@@ -42,25 +42,28 @@ div.heart {
 }
 
 #overlay {
-    background-image: url("https://file.garden/ZcO7PkClQE8Z0nd8/parallax-bigcloud-far.png");
-    animation: 120s move linear infinite;
     z-index: -2;
-    filter: invert(10%) sepia(36%) saturate(1120%) hue-rotate(196deg) brightness(96%) contrast(90%);
 }
 
 .overlay-1 {
+    background-image: url("https://file.garden/ZcO7PkClQE8Z0nd8/parallax-bigcloud-far.png");
+    animation: 120s move linear infinite;
+    filter: invert(10%) sepia(36%) saturate(1120%) hue-rotate(196deg) brightness(96%) contrast(90%);
+}
+
+.overlay-2 {
     background-image: url("https://file.garden/ZcO7PkClQE8Z0nd8/parallax-bigcloud.png");
     animation: 60s move linear infinite;
     filter: invert(29%) sepia(21%) saturate(570%) hue-rotate(193deg) brightness(87%) contrast(88%);
 }
 
-.overlay-2 {
+.overlay-3 {
     background-image: url("https://file.garden/ZcO7PkClQE8Z0nd8/parallax-bigcloud-short.png");
     animation: 30s move linear infinite;
     filter: invert(52%) sepia(11%) saturate(482%) hue-rotate(194deg) brightness(89%) contrast(87%);
 }
 
-.overlay-3 {
+.overlay-4 {
     background-image: url("https://file.garden/ZcO7PkClQE8Z0nd8/parallax-bigcloud-short-foreground.png");
     animation: 15s move linear infinite;
     filter: invert(67%) sepia(10%) saturate(323%) hue-rotate(192deg) brightness(99%) contrast(86%);
