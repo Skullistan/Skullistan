@@ -4,6 +4,7 @@ body {
 }
 #main {
     background-color: transparent;
+    image-rendering: pixelated;
 }
 #slide {
     background-color: #d6d7e0;
