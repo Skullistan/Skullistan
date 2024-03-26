@@ -1,0 +1,73 @@
+body {
+    background-color: #00011a;
+    image-rendering: pixelated;
+}
+#main {
+    background-color: #8596af;
+}
+#slide {
+    background-color: #d6d7e0;
+    Border: 8px solid #8596af
+}
+#soundbar {
+    background-color: #00011a !important;
+    border-color: #154080 !important;
+    outline: transparent !important;
+}
+#soundbar button{
+    background-color: #00011a !important;
+    border-color: #154080 !important;
+    outline: transparent !important;
+}
+nav {
+    background-color: #154080;
+}
+div.heart {
+    background-image: url("https://file.garden/ZcO7PkClQE8Z0nd8/Skullistan.png");
+}
+
+/* Parallax */
+
+#overlay > div, #overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    pointer-events: none;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+#overlay {
+    background-image: url("https://file.garden/ZcO7PkClQE8Z0nd8/parallax-bigcloud-far.png");
+    animation: 120s move linear infinite;
+    z-index: -2;
+    filter: invert(10%) sepia(36%) saturate(1120%) hue-rotate(196deg) brightness(96%) contrast(90%);
+}
+
+.overlay-1 {
+    background-image: url("https://file.garden/ZcO7PkClQE8Z0nd8/parallax-bigcloud.png");
+    animation: 60s move linear infinite;
+    filter: invert(29%) sepia(21%) saturate(570%) hue-rotate(193deg) brightness(87%) contrast(88%);
+}
+
+.overlay-2 {
+    background-image: url("https://file.garden/ZcO7PkClQE8Z0nd8/parallax-bigcloud-short.png");
+    animation: 30s move linear infinite;
+    filter: invert(52%) sepia(11%) saturate(482%) hue-rotate(194deg) brightness(89%) contrast(87%);
+}
+
+.overlay-3 {
+    background-image: url("https://file.garden/ZcO7PkClQE8Z0nd8/parallax-bigcloud-short-foreground.png");
+    animation: 15s move linear infinite;
+    filter: invert(67%) sepia(10%) saturate(323%) hue-rotate(192deg) brightness(99%) contrast(86%);
+}
+
+@keyframes move {
+    to {
+        background-position: 99vw bottom;
+    }
+}
