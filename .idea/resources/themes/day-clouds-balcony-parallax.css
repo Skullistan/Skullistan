@@ -3,7 +3,7 @@ body {
     image-rendering: pixelated;
 }
 #main {
-    background-color: transparent;
+    background-color: #transparent;
 }
 #slide {
     background-color: #d6d7e0;
